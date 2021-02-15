@@ -1,0 +1,4 @@
+com/kodilla/bookapp/NewTitleTest.java
+ com.kodilla.bookapp.NewTitleTest
+com/kodilla/bookapp/AddNewUserTest.java
+ com.kodilla.bookapp.AddNewUserTest
