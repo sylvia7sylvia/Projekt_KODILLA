@@ -1,0 +1,6 @@
+com/kodilla/apiTest/UserRestAssuredTest.java
+ com.kodilla.apiTest.UserRestAssuredTest
+com/kodilla/apiTest/Utils.java
+ com.kodilla.apiTest.Utils
+com/kodilla/apiTest/TitleRestAssuredTest.java
+ com.kodilla.apiTest.TitleRestAssuredTest

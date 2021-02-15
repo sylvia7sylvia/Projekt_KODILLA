@@ -1,2 +1,4 @@
 rootProject.name = 'Projekt_KODILLA'
+include 'backEnd'
+include 'frontEnd'
 
