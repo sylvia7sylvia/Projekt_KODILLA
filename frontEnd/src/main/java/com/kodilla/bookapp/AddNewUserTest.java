@@ -10,9 +10,9 @@ public class AddNewUserTest {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "C:\\selenium-drivers\\Chrome\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.get("https://ta-ebookrental-fe.herokuapp.com/");
-
-        driver.findElement(By.xpath("//*[@id=\"register-btn\"]")).click();
+        PO_Login po_login = new PO_Login(driver);
+        po_login.navigate();
+        driver.findElement(By.xpath("//button[@id='register-btn']")).click();
 
         WebElement log = driver.findElement(By.id("login"));
         log.sendKeys("Dawid");

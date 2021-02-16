@@ -1,4 +1,10 @@
 com/kodilla/bookapp/NewTitleTest.java
  com.kodilla.bookapp.NewTitleTest
+com/kodilla/bookapp/LoginLogoutTest.java
+ com.kodilla.bookapp.LoginLogoutTest
+com/kodilla/bookapp/BasePage.java
+ com.kodilla.bookapp.BasePage
+com/kodilla/bookapp/PO_Login.java
+ com.kodilla.bookapp.PO_Login
 com/kodilla/bookapp/AddNewUserTest.java
  com.kodilla.bookapp.AddNewUserTest

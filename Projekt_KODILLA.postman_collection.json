@@ -15,7 +15,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"userId\": 147,\n\t\"title\": \"War and Peace\",\n\t\"author\": \"Lew Tołstoj\",\n\t\"year\": 1869\n}",
+							"raw": "{\n\t\"userId\": 11588,\n\t\"title\": \"Harry Potter i Zakon Feniksa\",\n\t\"author\": \"J.K.Rowling\",\n\t\"year\": 2003\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -23,7 +23,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://ta-ebookrental-be.herokuapp.com/titles/",
+							"raw": "https://ta-ebookrental-be.herokuapp.com/titles/?userId=11588",
 							"protocol": "https",
 							"host": [
 								"ta-ebookrental-be",
@@ -37,45 +37,7 @@
 							"query": [
 								{
 									"key": "userId",
-									"value": "147",
-									"disabled": true
-								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "2.1.1 postNewTitlePolish",
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n\t\"userId\": 147,\n\t\"title\": \"Pójdź że, Kiń tę chmurność w głąb czaszy\",\n\t\"author\": \"Łoł stój\",\n\t\"year\": 1234\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "https://ta-ebookrental-be.herokuapp.com/titles/",
-							"protocol": "https",
-							"host": [
-								"ta-ebookrental-be",
-								"herokuapp",
-								"com"
-							],
-							"path": [
-								"titles",
-								""
-							],
-							"query": [
-								{
-									"key": "userId",
-									"value": "147",
-									"disabled": true
+									"value": "11588"
 								}
 							]
 						}
@@ -89,7 +51,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"userId\": 147,\n\t\"title\": \"\",\n\t\"author\": \"Jan Nowak\",\n\t\"year\": 1869\n}",
+							"raw": "{\n\t\"userId\": 11588,\n\t\"title\": \"\",\n\t\"author\": \"Jan Kowalski\",\n\t\"year\": 2000\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -97,7 +59,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://ta-ebookrental-be.herokuapp.com/titles/",
+							"raw": "https://ta-ebookrental-be.herokuapp.com/titles/?userId=11588",
 							"protocol": "https",
 							"host": [
 								"ta-ebookrental-be",
@@ -111,8 +73,7 @@
 							"query": [
 								{
 									"key": "userId",
-									"value": "147",
-									"disabled": true
+									"value": "11588"
 								}
 							]
 						}
@@ -126,7 +87,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"userId\": 147,\n\t\"title\": \"abc\",\n\t\"author\": \"\",\n\t\"year\": 1869\n}",
+							"raw": "{\n\t\"userId\": 11588,\n\t\"title\": \"Title\",\n\t\"author\": \"\",\n\t\"year\": 2000\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -134,7 +95,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://ta-ebookrental-be.herokuapp.com/titles/",
+							"raw": "https://ta-ebookrental-be.herokuapp.com/titles/?userId=11588",
 							"protocol": "https",
 							"host": [
 								"ta-ebookrental-be",
@@ -148,8 +109,7 @@
 							"query": [
 								{
 									"key": "userId",
-									"value": "147",
-									"disabled": true
+									"value": "11588"
 								}
 							]
 						}
@@ -163,7 +123,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"userId\": 147,\n\t\"title\": \"abc\",\n\t\"author\": \"Jan Nowak\",\n\t\"year\": \n}",
+							"raw": "{\n\t\"userId\": 11588,\n\t\"title\": \"Title\",\n\t\"author\": \"Jan Kowalski\",\n\t\"year\": \n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -185,7 +145,7 @@
 							"query": [
 								{
 									"key": "userId",
-									"value": "147",
+									"value": "11588",
 									"disabled": true
 								}
 							]
@@ -195,11 +155,23 @@
 				},
 				{
 					"name": "2.3 getTitles",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
 					"request": {
 						"method": "GET",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
-							"raw": "https://ta-ebookrental-be.herokuapp.com/titles/?userId=147",
+							"raw": "https://ta-ebookrental-be.herokuapp.com/titles/?userId=11588",
 							"protocol": "https",
 							"host": [
 								"ta-ebookrental-be",
@@ -213,7 +185,7 @@
 							"query": [
 								{
 									"key": "userId",
-									"value": "147"
+									"value": "11588"
 								}
 							]
 						}
@@ -227,7 +199,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"userId\": 147,\n\t\"id\": 284,\n\t\"title\": \"Kalarepa\",\n\t\"author\": \"Ann Marchew\",\n\t\"year\": 1008\n}",
+							"raw": "{\n\t\"userId\": 11588,\n\t\"id\": 284,\n\t\"title\": \"Harry Potter i Zakon Feniksa\",\n\t\"author\": \"J.K.Rowling\",\n\t\"year\": 2003\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -235,7 +207,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://ta-ebookrental-be.herokuapp.com/titles/",
+							"raw": "https://ta-ebookrental-be.herokuapp.com/titles/?userId=11588",
 							"protocol": "https",
 							"host": [
 								"ta-ebookrental-be",
@@ -249,8 +221,7 @@
 							"query": [
 								{
 									"key": "userId",
-									"value": "147",
-									"disabled": true
+									"value": "11588"
 								}
 							]
 						}
@@ -263,7 +234,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "https://ta-ebookrental-be.herokuapp.com/titles/?userId=147&id=284",
+							"raw": "https://ta-ebookrental-be.herokuapp.com/titles/?userId=11588&id=11589",
 							"protocol": "https",
 							"host": [
 								"ta-ebookrental-be",
@@ -277,19 +248,18 @@
 							"query": [
 								{
 									"key": "userId",
-									"value": "147"
+									"value": "11588"
 								},
 								{
 									"key": "id",
-									"value": "284"
+									"value": "11589"
 								}
 							]
 						}
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "User",
@@ -301,7 +271,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"login\": \"goorolx\",\n\t\"password\": \"rudy103\"\n}",
+							"raw": "{\n\t\"login\": \"sylvia7sylvia\",\n\t\"password\": \"mojehaslo123\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -326,13 +296,13 @@
 					"response": []
 				},
 				{
-					"name": "1.12 goodLoginZbigniewTester",
+					"name": "1.12 goodLoginSylwiaLuczak",
 					"request": {
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"login\": \"Zbigniew Tester\",\n\t\"password\": \"rudy102\"\n}",
+							"raw": "{\n\t\"login\": \"sylvia7sylvia\",\n\t\"password\": \"mojehaslo123\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -363,7 +333,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"login\": \"John Tester\",\n\t\"password\": \"rudy1031\"\n}",
+							"raw": "{\n\t\"login\": \"sylvia7sylvia\",\n\t\"password\": \"mojehaslo123\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -393,7 +363,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"login\": \"goorol\",\n\t\"password\": \"rudy103\"\n}",
+							"raw": "{\n\t\"login\": \"David\",\n\t\"password\": \"lightnir1984\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -415,12 +385,12 @@
 							"query": [
 								{
 									"key": "login",
-									"value": "goorolx",
+									"value": "Dawid",
 									"disabled": true
 								},
 								{
 									"key": "password",
-									"value": "rudy102",
+									"value": "lightnir1984",
 									"disabled": true
 								}
 							]
@@ -435,7 +405,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"login\": \"goorolx\",\n\t\"password\": \"rudy1031\"\n}",
+							"raw": "{\n\t\"login\": \"Dawid\",\n\t\"password\": \"lightnir1948\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -457,12 +427,12 @@
 							"query": [
 								{
 									"key": "login",
-									"value": "goorolx",
+									"value": "Dawid",
 									"disabled": true
 								},
 								{
 									"key": "password",
-									"value": "rudy102",
+									"value": "lightnir1984",
 									"disabled": true
 								}
 							]
@@ -477,7 +447,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"login\": \"Zbigniew Tester\",\n\t\"password\": \"rudy103\"\n}",
+							"raw": "{\n\t\"login\": \"sylvia7sylvia\",\n\t\"password\": \"lightnir1984\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -495,84 +465,35 @@
 							"path": [
 								"user",
 								"register"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "1.6 postNewUserPolish",
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n\t\"login\": \"Góroliść\",\n\t\"password\": \"ródą102\"\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "https://ta-ebookrental-be.herokuapp.com/user/register",
-							"protocol": "https",
-							"host": [
-								"ta-ebookrental-be",
-								"herokuapp",
-								"com"
-							],
-							"path": [
-								"user",
-								"register"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "1.7 loginUserPolish",
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n\t\"login\": \"Góroliść\",\n\t\"password\": \"ródą102\"\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "https://ta-ebookrental-be.herokuapp.com/user/login",
-							"protocol": "https",
-							"host": [
-								"ta-ebookrental-be",
-								"herokuapp",
-								"com"
-							],
-							"path": [
-								"user",
-								"login"
 							]
 						}
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "Items",
 			"item": [
 				{
 					"name": "3.1 getItems",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
 					"request": {
 						"method": "GET",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
-							"raw": "https://ta-ebookrental-be.herokuapp.com/items/",
+							"raw": "https://ta-ebookrental-be.herokuapp.com/items/?userId=11588",
 							"protocol": "https",
 							"host": [
 								"ta-ebookrental-be",
@@ -582,6 +503,12 @@
 							"path": [
 								"items",
 								""
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "11588"
+								}
 							]
 						}
 					},
@@ -594,7 +521,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\t\"userId\": 147,\r\n\t\t\"titleId\": 148,\r\n        \"purchaseDate\": \"7777-06-12\"\r\n}",
+							"raw": "{\r\n\t\t\"userId\": 11588,\r\n\t\t\"titleId\": 11591,\r\n        \"purchaseDate\": \"2021-02-13\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -624,7 +551,67 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\t\"userId\": 147,\r\n\t\t\"id\": 280,\r\n        \"purchaseDate\": \"2222-06-12\"\r\n}",
+							"raw": "{\r\n\t\t\"userId\": 11588,\r\n\t\t\"id\": 11593,\r\n        \"purchaseDate\": \"2021-02-13\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ta-ebookrental-be.herokuapp.com/items/",
+							"protocol": "https",
+							"host": [
+								"ta-ebookrental-be",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"items",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "3.2b editItemWhoDoesntExist",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\t\"userId\": 11588,\r\n\t\t\"id\": 11593,\r\n        \"purchaseDate\": \"2021-02-13\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ta-ebookrental-be.herokuapp.com/items/",
+							"protocol": "https",
+							"host": [
+								"ta-ebookrental-be",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"items",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "3.2c editItemWithBadID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\t\"userId\": 11588,\r\n\t\t\"id\": 11593,\r\n        \"purchaseDate\": \"2021-02-13\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -652,8 +639,17 @@
 					"request": {
 						"method": "DELETE",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
-							"raw": "https://ta-ebookrental-be.herokuapp.com/items/?userId=147&id=280",
+							"raw": "https://ta-ebookrental-be.herokuapp.com/items/?userId=11588&id=11593",
 							"protocol": "https",
 							"host": [
 								"ta-ebookrental-be",
@@ -667,19 +663,58 @@
 							"query": [
 								{
 									"key": "userId",
-									"value": "147"
+									"value": "11588"
 								},
 								{
 									"key": "id",
-									"value": "280"
+									"value": "11593"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "3.3b deleteItemWhoDoesntExist",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ta-ebookrental-be.herokuapp.com/items/?userId=11588&id=11593",
+							"protocol": "https",
+							"host": [
+								"ta-ebookrental-be",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"items",
+								""
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "11588"
+								},
+								{
+									"key": "id",
+									"value": "11593"
 								}
 							]
 						}
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "Rents",
@@ -702,7 +737,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://ta-ebookrental-be.herokuapp.com/rents/?userId=147&itemId=195",
+							"raw": "https://ta-ebookrental-be.herokuapp.com/rents/?userId=11588&itemId=11591",
 							"protocol": "https",
 							"host": [
 								"ta-ebookrental-be",
@@ -716,11 +751,11 @@
 							"query": [
 								{
 									"key": "userId",
-									"value": "147"
+									"value": "11588"
 								},
 								{
 									"key": "itemId",
-									"value": "195"
+									"value": "11591"
 								}
 							]
 						}
@@ -734,7 +769,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"userId\": 147,\n\t\"itemId\": 195,\n\t\"customerName\": \"someWeirdTesterSki\",\n\t\"rentDate\": \"2020-06-18\"\n}",
+							"raw": "{\n\t\"userId\": 11588,\n\t\"itemId\": 11590,\n\t\"customerName\": \"sylvia\",\n\t\"rentDate\": \"2021-02-13\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -756,12 +791,12 @@
 							"query": [
 								{
 									"key": "userId",
-									"value": "147",
+									"value": "11588",
 									"disabled": true
 								},
 								{
 									"key": "itemId",
-									"value": "195",
+									"value": "11590",
 									"disabled": true
 								}
 							]
@@ -776,7 +811,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"userId\": 147,\n\t\"itemId\": 195,\n\t\"customerName\": \"Duplicate Tester\",\n\t\"rentDate\": \"2020-06-18\"\n}",
+							"raw": "{\n\t\"userId\": 11588,\n\t\"itemId\": 11590,\n\t\"customerName\": \"something\",\n\t\"rentDate\": \"2021-02-13\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -798,12 +833,12 @@
 							"query": [
 								{
 									"key": "userId",
-									"value": "147",
+									"value": "11588",
 									"disabled": true
 								},
 								{
 									"key": "itemId",
-									"value": "195",
+									"value": "11590",
 									"disabled": true
 								}
 							]
@@ -818,7 +853,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"userId\": 147,\n\t\"id\": 282,\n\t\"customerName\": \"someWeirdTesterEk\",\n\t\"rentDate\": \"2020-06-01\",\n\t\"expirationDate\": \"2020-06-21\"\n}",
+							"raw": "{\n\t\"userId\": 11588,\n\t\"id\": 11590,\n\t\"customerName\": \"shit\",\n\t\"rentDate\": \"2021-02-13\",\n\t\"expirationDate\": \"2022-02-13\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -840,12 +875,12 @@
 							"query": [
 								{
 									"key": "userId",
-									"value": "147",
+									"value": "11588",
 									"disabled": true
 								},
 								{
 									"key": "itemId",
-									"value": "195",
+									"value": "11590",
 									"disabled": true
 								}
 							]
@@ -860,7 +895,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"userId\": 147,\n\t\"id\": 282,\n\t\"customerName\": \"someWeirdTester\",\n\t\"rentDate\": \"2020-06-01\",\n\t\"expirationDate\": \"2020-06-19\"\n}",
+							"raw": "{\n\t\"userId\": 11588,\n\t\"id\": 11590,\n\t\"customerName\": \"shit\",\n\t\"rentDate\": \"2021-02-13\",\n\t\"expirationDate\": \"2022-02-13\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -882,12 +917,12 @@
 							"query": [
 								{
 									"key": "userId",
-									"value": "147",
+									"value": "11588",
 									"disabled": true
 								},
 								{
 									"key": "itemId",
-									"value": "195",
+									"value": "11590",
 									"disabled": true
 								}
 							]
@@ -895,9 +930,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }
